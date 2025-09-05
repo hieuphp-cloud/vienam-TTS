@@ -4,7 +4,7 @@ print(torch.__version__)
 print(torch.cuda.is_available())  # True nếu nhận GPU
 
 import sys
-sys.path.append("/content")  # Thêm thư mục /content vào đường dẫn tìm kiếm module
+sys.path.append("/content/vienam-TTS")  # Thêm thư mục /content vào đường dẫn tìm kiếm module
 
 import torch
 import json
