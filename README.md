@@ -3,5 +3,5 @@
 ## Cài đặt
 ```bash
 !git clone https://github.com/hieuphp-cloud/vienam-TTS.git
-!cd vienam-TTS
+%cd vienam-TTS
 !pip install -r requirements.txt
