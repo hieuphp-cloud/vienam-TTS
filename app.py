@@ -1,5 +1,6 @@
 
-import torch
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 print(torch.__version__)
 print(torch.cuda.is_available())  # True nếu nhận GPU
 
@@ -146,4 +147,4 @@ gr.Interface(
         "Trăm năm trong cõi người ta, chữ tài chữ mệnh khéo là ghét nhau.",
         "Đoạn trường tân thanh, thường được biết đến với cái tên đơn giản là Truyện Kiều, là một truyện thơ của đại thi hào Nguyễn Du",
     ],
-).launch(debug=True)
+).launch(share=True, debug=True)
