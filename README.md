@@ -2,6 +2,6 @@
 
 ## Cài đặt
 ```bash
-!git clone https://github.com/<username>/Vietnamese-TTS.git
-!cd Vietnamese-TTS
+!git clone https://github.com/hieuphp-cloud/vienam-TTS.git
+!cd vienam-TTS
 !pip install -r requirements.txt
