@@ -1,0 +1,7 @@
+torch
+torchvision
+torchaudio
+gradio
+numpy
+regex
+soundfile
